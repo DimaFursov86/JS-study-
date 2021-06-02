@@ -8,6 +8,6 @@ function makePizza(pizzaName) {
 
 // Пиши код ниже этой строки
 function makeMessage(pizzaName, callback) {
-  return;
+  return callback(pizzaName);
 }
 console.log(makeMessage('Роял гранд', makePizza))
